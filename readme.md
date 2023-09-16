@@ -3,7 +3,7 @@
 ## Я создал небольшой help по git:  
 
 * ### Основные bach команды:  
----  
+ ---  
 1. cd - переход в директорию, например в /home/my_folder - "cd /home/my_folder"  
 2. mkdir - создание в директории  
 3. rmdir -удаление директории  
@@ -63,8 +63,8 @@
 ```mermaid
 graph LR;
   untracked -- "git add" --> staged;
-  staged -- "git commit" --> tracked/comitted;
-  tracked --> modified -- "git add" --> staged;
+  staged -- "git commit" --> tracked/commited;
+  tracked/commited --> modified -- "git add" --> staged;
   staged -- "git add" --> modified;
 ```  
 
